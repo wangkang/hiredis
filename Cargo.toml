@@ -9,5 +9,5 @@ homepage = "https://github.com/stainless-steel/hiredis"
 repository = "https://github.com/stainless-steel/hiredis"
 
 [dependencies]
-hiredis-sys = "0.4"
+hiredis-sys = { git = "https://github.com/wangkang/hiredis-sys.git", branch = "master" }
 libc = "0.2"
